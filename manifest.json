@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.10.04.4",
+  "version": "2026.10.04.5",
   "resources": {
     "general": {
       "path": "settings/general.json",
@@ -16,7 +16,7 @@
     },
     "content": {
       "path": "prompts/content.json",
-      "sha256": "3dc18b2b5d4fb9e9e5326cbcb8c444d1f19d6274db2500efd0936751334f9464"
+      "sha256": "e7d9b35ded3cbd7335fc6f9324aee42ebd2e5076bf73ece7d228f1b02d5232e1"
     },
     "reply": {
       "path": "prompts/reply.json",
@@ -29,6 +29,10 @@
     "adapters": {
       "path": "sources/adapters.json",
       "sha256": "8b9a51cc63c33e0a9793d74efbbabeddce3a60303f3064358d5f0970c5ae6e0f"
+    },
+    "contentStyles": {
+      "path": "presets/content-styles.json",
+      "sha256": "1b721360d566fedd638a81079338731d6c215f2f03b7b713ea14f4e659c1a847"
     }
   }
 }
