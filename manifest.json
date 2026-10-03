@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.10.04.3",
+  "version": "2026.10.04.4",
   "resources": {
     "general": {
       "path": "settings/general.json",
@@ -16,7 +16,7 @@
     },
     "content": {
       "path": "prompts/content.json",
-      "sha256": "8629a31d73a2ec55ec8d632d719e7cb709fef32c7e350b18d562fc35c2cdd251"
+      "sha256": "3dc18b2b5d4fb9e9e5326cbcb8c444d1f19d6274db2500efd0936751334f9464"
     },
     "reply": {
       "path": "prompts/reply.json",
