@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.10.04.2",
+  "version": "2026.10.04.3",
   "resources": {
     "general": {
       "path": "settings/general.json",
@@ -28,7 +28,7 @@
     },
     "adapters": {
       "path": "sources/adapters.json",
-      "sha256": "100743f55137b14fdfbd1d41c40868b6d39f9c0c9f90946ae1762b4b166dbef1"
+      "sha256": "8b9a51cc63c33e0a9793d74efbbabeddce3a60303f3064358d5f0970c5ae6e0f"
     }
   }
 }
