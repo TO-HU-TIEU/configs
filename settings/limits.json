@@ -1,0 +1,7 @@
+{
+  "maxSources": 20,
+  "maxArticles": 120,
+  "maxQueue": 120,
+  "maxSourceCharacters": 10000,
+  "minSourceCharacters": 80
+}

@@ -1,0 +1,29 @@
+{
+  "sosovalue.com": {
+    "body": [
+      "[itemprop=\"articleBody\"]",
+      "article",
+      ".article-content"
+    ]
+  },
+  "dantri.com.vn": {
+    "body": [
+      ".singular-content",
+      "[itemprop=\"articleBody\"]",
+      "article"
+    ],
+    "feed": [
+      ".article-item"
+    ]
+  },
+  "tuoitre.vn": {
+    "body": [
+      ".detail-content",
+      "[itemprop=\"articleBody\"]",
+      "article"
+    ],
+    "feed": [
+      ".box-category-item"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "sourceLabels": {
+    "sosovalue.com": "SoSoValue",
+    "dantri.com.vn": "Dân trí",
+    "tuoitre.vn": "Tuổi trẻ"
+  },
+  "configRefreshMinutes": 60
+}

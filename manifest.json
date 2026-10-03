@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "version": "2026.10.04.2",
+  "resources": {
+    "general": {
+      "path": "settings/general.json",
+      "sha256": "6adce592497e81f72c77dfb69aa6c52d2d274fdd2b4f6c75c724df27cf111e41"
+    },
+    "limits": {
+      "path": "settings/limits.json",
+      "sha256": "ef40aee2355d9616105d0a6f98178d17e2b4ddb29e4181b073eeebe0a049480b"
+    },
+    "endpoints": {
+      "path": "settings/endpoints.json",
+      "sha256": "64cf320bc15e135a3649a60ddacc363d423adf287c64506767944ffe6380fd16"
+    },
+    "content": {
+      "path": "prompts/content.json",
+      "sha256": "8629a31d73a2ec55ec8d632d719e7cb709fef32c7e350b18d562fc35c2cdd251"
+    },
+    "reply": {
+      "path": "prompts/reply.json",
+      "sha256": "08bcd978a7e6e3e0f782f9e53d5b849e2eb3c651109a0b4f92f14d0d7e278979"
+    },
+    "styles": {
+      "path": "presets/reply-styles.json",
+      "sha256": "2ddd9db02e94ba615d1dba3c1516db4442af04aa4c60d4fc029b3c80a9733457"
+    },
+    "adapters": {
+      "path": "sources/adapters.json",
+      "sha256": "100743f55137b14fdfbd1d41c40868b6d39f9c0c9f90946ae1762b4b166dbef1"
+    }
+  }
+}
