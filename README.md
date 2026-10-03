@@ -21,3 +21,9 @@ Only JSON is fetched. Local safety and language rules are preserved. Supported u
 ## Content presets
 
 `presets/content-styles.json` chứa phong cách soạn Content, tách riêng với phong cách trả lời. Extension 1.5.1 trở lên dùng lần lượt Góc nhìn sắc và Cơ chế & hệ quả. Preset chỉ điều chỉnh giọng viết; giới hạn độ dài và các ràng buộc dữ kiện/pháp luật được giữ trong extension. Mỗi release phải cập nhật manifest và hash tài nguyên bằng script phát hành.
+
+## Phân chia presets / configs
+
+Repo `TO-HU-TIEU/presets` là nguồn biên tập phong cách: `default-presets.json` cho trả lời và `content-styles.json` cho Content. Hai JSON trong thư mục `presets/` ở configs là bản phân phối tự đồng bộ bằng `scripts/update-manifest.mjs`, giữ URL hiện tại cho extension đã chia sẻ. Không chỉnh trực tiếp các bản sao này.
+
+Clone hai repo cạnh nhau. Phát hành theo thứ tự: presets trước, sau đó chạy script cập nhật manifest trong configs với version mới, kiểm tra hash và push configs. Extension chỉ đổi sang release khi cả bộ tài nguyên khớp hash; lỗi tải giữ bản hợp lệ trước đó.
