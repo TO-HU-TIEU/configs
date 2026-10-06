@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.10.06.8",
+  "version": "2026.10.06.9",
   "resources": {
     "general": {
       "path": "settings/general.json",
@@ -20,11 +20,11 @@
     },
     "reply": {
       "path": "prompts/reply.json",
-      "sha256": "d05b0200f2bc2de1b2b095cf30965103d712a354fc50fabafb8460fe18f1d879"
+      "sha256": "8635bccb8b3a26ce06f984c569ddbcdec39c6c85b93ad3a1e73d31c7787df672"
     },
     "styles": {
       "path": "presets/reply-styles.json",
-      "sha256": "455e92cf56c16a4f20533699103775802f360d0ca4e9499009e9e4e9c4c63e0e"
+      "sha256": "b7824f8e09808799538b69d9f07530a7b5994c24a82ee2245d62050e8f6c621e"
     },
     "adapters": {
       "path": "sources/adapters.json",
