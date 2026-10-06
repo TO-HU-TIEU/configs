@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "version": "2026.10.06.2",
+  "version": "2026.10.06.3",
   "resources": {
     "general": {
       "path": "settings/general.json",
@@ -24,7 +24,7 @@
     },
     "styles": {
       "path": "presets/reply-styles.json",
-      "sha256": "5e95a931570b434f71cc4021f55dd72323e7e064c200662638cfd7aa52ef7857"
+      "sha256": "b27454d351df7bf637d991e80f05707a94920bb8b998dafb7028c4f25d708d2d"
     },
     "adapters": {
       "path": "sources/adapters.json",
